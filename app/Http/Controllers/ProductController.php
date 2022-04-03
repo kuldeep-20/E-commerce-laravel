@@ -39,7 +39,6 @@ class ProductController extends Controller
            $cart->product_id=$req->product_id;
            $cart->save();
            return redirect('/');
-
         }
         else
         {
